@@ -51,3 +51,7 @@ span {
 .jumbotron p {
 	margin-bottom: 0;
 	}
+
+	ul li a, .navbar-brand {
+		font-size: 30px;
+	}
