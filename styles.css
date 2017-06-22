@@ -1,16 +1,16 @@
 html {
-	/*height: 100%;*/
+	height: 100%;
 }
 
 body {
 	
 	background-image: url("images/mst3k-studio.jpg");
-	/*background-color: #0074DD;*/
-	background-color: -webkit-linear-gradient(left, #0074DD, #3BC8F6);
+	background-color: #0074DD;
+	/*background-color: -webkit-linear-gradient(left, #0074DD, #3BC8F6);*/
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-size: auto 100%;
+	background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: left top;
 
@@ -39,7 +39,15 @@ span {
 	padding: 0;
 }
 
+.container .jumbotron {
+	padding: 8px;
+}
+
 .j-title {
 	text-align: center;
 	margin: 0;
 }
+
+.jumbotron p {
+	margin-bottom: 0;
+	}

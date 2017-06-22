@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MST3K Fan Site</title>
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Frijole|Revalia|Sigmar+One" rel="stylesheet"> 
+  <title>MST3K Fan Site</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- My personal CSS -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Frijole|Revalia|Sigmar+One" rel="stylesheet"> 
 </head>
 <body>
-	<div class="container">
-		<header><sub><img src="images/mstlogo.png"></sub><span> </span>MST3K <!--<span>the return</span>--></header>
-		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapsed" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<a href="#" class="navbar-brand">MST3K</a>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a href="#" class="nav-link">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Episodes</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Tours</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-			      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			    </form>
-			</div>
-		</nav>
-		<div class="jumbotron">
-			<div class="container">
-				<p class="j-title"><strong>MST3K The Return</strong> - Episode 3 "Starcrash"</p>
-				<img id="starcrash" src="images/mst3k-starcrash.jpg">
-				<p>"So they created this massive machine just so they wouldn't have to go around corners?"</p>
-			</div>
-		</div>
-	</div>
+<header><sub><img src="images/mstlogo.png"></sub><span> </span>MST3K <!--<span>the return</span>--></header>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">MST3K</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Episodes</a></li>
+        <li><a href="#">Tours</a></li> 
+        <li><a href="#">Swag</a></li> 
+      </ul>
+    
+<form class="navbar-form navbar-right">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+  
+    </div>
+    </div>
+  </nav>  
+    <div class="container">
+      <div class="jumbotron">
+        <p class="j-title"><strong>MST3K The Return</strong> - Episode 3 "Starcrash"</p>
+        <img id="starcrash" src="images/mst3k-starcrash.jpg">
+        <p>"So they created this massive machine just so they wouldn't have to go around corners?"</p>
+      </div>
+    </div>
+  
+
+
 </body>
 </html>
